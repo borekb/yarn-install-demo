@@ -2,6 +2,8 @@
 
 This repo has the same project twice, once installed with Yarn 1 and once with Yarn 2 + the node-modules linker.
 
+It was created to demonstrate a possible performance issue with v2 install times, see [PR #1](https://github.com/borekb/yarn-install-demo/pull/1), but later, it was found out that the repo setup was flawed and the install times were fixed, see [#2](https://github.com/borekb/yarn-install-demo/pull/2).
+
 ## How to try
 
 Install `packages-v1`:
