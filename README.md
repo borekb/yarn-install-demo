@@ -22,15 +22,5 @@ Then do the same in `packages-v2`.
 
 The times I'm seeing are:
 
-- `packages-v1`: **~25 seconds**
-- `packages-v1`: **~40 seconds**
-
-There are also significant differences in the sizes of node_modules installed, and their count:
-
-<img width="1145" alt="Screenshot 2020-09-02 at 22 54 47" src="https://user-images.githubusercontent.com/101152/92035655-51568980-ed6f-11ea-9685-3761a8dcb4b1.png">
-
-What is also quite common is that the v2 installs contain nested `node_modules` where v1 don't:
-
-<img width="1145" alt="Screenshot 2020-09-02 at 22 57 55" src="https://user-images.githubusercontent.com/101152/92035994-de014780-ed6f-11ea-9872-e749d427b3b5.png">
-
-My guess is that it's somehow related to a more reliable implementation of Yarn 2 n_m linker but it's just a guess.
+- `packages-v1`: **~60 seconds**
+- `packages-v2`: **~40 seconds**
