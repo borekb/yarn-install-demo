@@ -1,5 +1,5 @@
 {
-  "name": "@borekb-demo/workspace",
+  "name": "@ship-demo/workspace",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
