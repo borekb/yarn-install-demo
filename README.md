@@ -26,3 +26,11 @@ The times I'm seeing are:
 
 - `packages-v1`: **~60 seconds**
 - `packages-v2`: **~40 seconds**
+
+## Next.js build
+
+To test build after installing node_modules, you can run:
+
+```
+yarn build-everything
+```
